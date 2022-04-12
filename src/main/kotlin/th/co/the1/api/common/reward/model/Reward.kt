@@ -1,7 +1,7 @@
 package th.co.the1.api.common.reward.model
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize
-import th.co.the1.api.core.reward.application.serializer.MobileDateSerializer
+import th.co.the1.api.common.MobileDateSerializer
 import java.io.Serializable
 import java.util.Date
 
