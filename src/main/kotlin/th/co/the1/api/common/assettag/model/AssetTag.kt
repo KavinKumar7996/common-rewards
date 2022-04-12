@@ -1,4 +1,4 @@
-package th.co.the1.api.core.reward.domain.assettag.model
+package th.co.the1.api.common.assettag.model
 
 class AssetTag {
     var id: Long? = null

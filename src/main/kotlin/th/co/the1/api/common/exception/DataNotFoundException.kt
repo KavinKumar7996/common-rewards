@@ -1,4 +1,4 @@
-package th.co.the1.api.core.reward.domain.exception
+package th.co.the1.api.common.exception
 
 import org.springframework.http.HttpStatus
 

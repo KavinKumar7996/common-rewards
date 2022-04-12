@@ -1,4 +1,4 @@
-package th.co.the1.api.core.reward.domain.constant
+package th.co.the1.api.common.constant
 
 object CommonConstant {
 

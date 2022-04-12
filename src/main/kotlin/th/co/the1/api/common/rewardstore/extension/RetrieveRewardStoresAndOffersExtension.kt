@@ -1,20 +1,20 @@
-package th.co.the1.api.core.reward.domain.rewardstore.extension
+package th.co.the1.api.common.rewardstore.extension
 
 import org.apache.commons.lang3.StringUtils
-import th.co.the1.api.core.reward.domain.assettag.model.AssetTag
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.AssetTagTypeEnum
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.BRAND_TAG_SEPARATOR
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.BRAND_TAG_STRUCTURE_SIZE
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.CATEGORY_TAG_PREFIX_KEY
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.CATEGORY_TAG_SEPARATOR
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.DISPLAY_TAG_SEPARATOR
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.DISPLAY_TAG_STRUCTURE_SIZE
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.LOCATION_TAG_KEYS
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.LOCATION_TAG_SEPARATOR
-import th.co.the1.api.core.reward.domain.constant.AssetTagConstant.LOCATION_TAG_STRUCTURE_SIZE
-import th.co.the1.api.core.reward.domain.constant.CommonConstant.COLON_SEPARATOR
-import th.co.the1.api.core.reward.domain.constant.CommonConstant.COMMA_SEPARATOR
-import th.co.the1.api.core.reward.domain.constant.CommonConstant.SLASH_SEPARATOR
+import th.co.the1.api.common.assettag.model.AssetTag
+import th.co.the1.api.common.constant.AssetTagConstant.AssetTagTypeEnum
+import th.co.the1.api.common.constant.AssetTagConstant.BRAND_TAG_SEPARATOR
+import th.co.the1.api.common.constant.AssetTagConstant.BRAND_TAG_STRUCTURE_SIZE
+import th.co.the1.api.common.constant.AssetTagConstant.CATEGORY_TAG_PREFIX_KEY
+import th.co.the1.api.common.constant.AssetTagConstant.CATEGORY_TAG_SEPARATOR
+import th.co.the1.api.common.constant.AssetTagConstant.DISPLAY_TAG_SEPARATOR
+import th.co.the1.api.common.constant.AssetTagConstant.DISPLAY_TAG_STRUCTURE_SIZE
+import th.co.the1.api.common.constant.AssetTagConstant.LOCATION_TAG_KEYS
+import th.co.the1.api.common.constant.AssetTagConstant.LOCATION_TAG_SEPARATOR
+import th.co.the1.api.common.constant.AssetTagConstant.LOCATION_TAG_STRUCTURE_SIZE
+import th.co.the1.api.common.constant.CommonConstant.COLON_SEPARATOR
+import th.co.the1.api.common.constant.CommonConstant.COMMA_SEPARATOR
+import th.co.the1.api.common.constant.CommonConstant.SLASH_SEPARATOR
 
 fun createAssetTags(sourceTag: String, type: String): List<AssetTag>? {
     return if (isContainTypeInAssetTagType(type)) {

@@ -1,4 +1,4 @@
-package th.co.the1.api.core.reward.domain.constant
+package th.co.the1.api.common.constant
 
 object RewardConstants {
     const val DATE_FORMAT: String = "yyyy-MM-dd'T'HH:mm:ss'Z'"

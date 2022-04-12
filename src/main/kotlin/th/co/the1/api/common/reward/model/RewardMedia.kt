@@ -1,4 +1,4 @@
-package th.co.the1.api.core.reward.domain.reward.model
+package th.co.the1.api.common.reward.model
 
 import java.io.Serializable
 
